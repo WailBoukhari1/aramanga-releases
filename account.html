@@ -1,1 +1,36 @@
-<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>AraManga | الحساب</title><link rel="stylesheet" href="site.css"></head><body><header class="nav"><a class="brand" href="index.html"><span>AM</span> Ara<span>Manga</span></a><nav><a href="unity-ads.html">الخصوصية والإعلانات</a></nav></header><main class="account-layout"><section><p class="eyebrow">حساب AraManga</p><h1>تابع قراءتك<br><em>على كل أجهزتك.</em></h1><p class="lead">استخدم الحساب نفسه الذي تستعمله في التطبيق لمزامنة القوائم والتقدم.</p><p class="meta">لن نطلب كلمة المرور خارج هذا النموذج الآمن.</p></section><section class="auth-card"><div class="tabs"><button class="active" data-mode="login">تسجيل الدخول</button><button data-mode="signup">إنشاء حساب</button></div><form id="authForm"><label>البريد الإلكتروني<input id="email" type="email" autocomplete="email" required></label><label>كلمة المرور<input id="password" type="password" autocomplete="current-password" minlength="6" required></label><label id="nameWrap" hidden>الاسم الظاهر<input id="name" autocomplete="nickname"></label><button class="button primary" type="submit">متابعة</button><p id="authStatus" class="meta" role="status"></p></form></section></main><footer>© AraManga · <a href="index.html">تنزيل التطبيق</a></footer><script src="account.js"></script></body></html>
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0d0e">
+  <title>AraManga | الحساب</title>
+  <link rel="stylesheet" href="site.css?v=flat-1">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html" aria-label="AraManga - الصفحة الرئيسية"><span class="brand-mark">AM</span><span class="brand-name">Ara<span>Manga</span></span></a>
+    <nav aria-label="التنقل الرئيسي"><a href="privacy.html">الخصوصية</a><a href="index.html">تنزيل التطبيق</a></nav>
+  </header>
+  <main class="account-layout landing-shell">
+    <section>
+      <p class="eyebrow">حساب AraManga</p>
+      <h1>تابع قراءتك<br><em>على كل أجهزتك.</em></h1>
+      <p class="lead">استخدم الحساب نفسه الذي تستعمله في التطبيق لمزامنة القوائم والتقدم.</p>
+      <p class="meta">لن نطلب كلمة المرور خارج هذا النموذج الآمن.</p>
+    </section>
+    <section class="auth-card">
+      <div class="tabs"><button class="active" data-mode="login">تسجيل الدخول</button><button data-mode="signup">إنشاء حساب</button></div>
+      <form id="authForm">
+        <label>البريد الإلكتروني<input id="email" type="email" autocomplete="email" required></label>
+        <label>كلمة المرور<input id="password" type="password" autocomplete="current-password" minlength="6" required></label>
+        <label id="nameWrap" hidden>الاسم الظاهر<input id="name" autocomplete="nickname"></label>
+        <button class="button primary" type="submit">متابعة</button>
+        <p id="authStatus" class="meta" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <footer>© AraManga · <a href="index.html">تنزيل التطبيق</a></footer>
+  <script src="account.js"></script>
+</body>
+</html>

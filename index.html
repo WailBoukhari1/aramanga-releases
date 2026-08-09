@@ -1,11 +1,90 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#0b0d0e"><title>AraManga | تنزيل التطبيق</title><link rel="stylesheet" href="site.css"></head>
-<body>
-  <header class="nav"><a class="brand" href="index.html"><span>AM</span> Ara<span>Manga</span></a><nav><a href="unity-ads.html">الخصوصية والإعلانات</a><a href="account.html">حساب AraManga</a></nav></header>
-  <main>
-    <section class="hero"><div><p class="eyebrow">قارئ مانجا عربي</p><h1>اقرأ أسرع.<br><em>تابع أكثر.</em></h1><p class="lead">AraManga يجمع الفصول المتاحة من المصادر المعتمدة في تجربة قراءة عربية سريعة مع حفظ التقدم والتنزيلات.</p><div class="actions"><a id="downloadButton" class="button primary" href="AraManga-v1.9.7.apk" download>تنزيل التطبيق</a><a class="button secondary" href="account.html">تسجيل الدخول</a></div><p id="releaseMeta" class="meta">جارٍ التحقق من آخر إصدار…</p></div><div class="hero-mark" aria-hidden="true"><div>AM</div></div></section>
-    <section class="features" aria-label="مزايا التطبيق"><article><b>⚡</b><h2>انطلاقة سريعة</h2><p>يظهر المحتوى المحفوظ أولاً ثم يتم التحديث في الخلفية.</p></article><article><b>◉</b><h2>تقدمك محفوظ</h2><p>ارجع إلى المكان نفسه في الفصل، حتى بعد إغلاق التطبيق.</p></article><article><b>↓</b><h2>قراءة بلا إنترنت</h2><p>نزّل الفصول التي تختارها واقرأها في أي وقت.</p></article></section>
-    <section class="release-card"><div><p class="eyebrow">تحديثات مباشرة</p><h2>تحديث آمن خارج متجر Play</h2><p>حمّل APK الجديد من هنا. سيخبرك التطبيق عند توفر إصدار أحدث.</p></div><a id="releaseLink" class="text-link" href="AraManga-v1.9.7.apk">عرض ملف الإصدار ←</a></section>
-  </main><footer>© AraManga · <a href="unity-ads.html">الخصوصية</a> · <a href="account.html">الحساب</a></footer><script src="site.js"></script>
-</body></html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#0b0d0e">
+  <meta name="description" content="نزّل AraManga، قارئ المانجا العربي السريع مع حفظ التقدم والقوائم والتنزيلات.">
+  <title>AraManga | تنزيل التطبيق</title>
+  <link rel="stylesheet" href="site.css?v=flat-1">
+</head>
+<body class="landing-page">
+  <a class="skip-link" href="#content">انتقل إلى المحتوى</a>
+  <header class="nav">
+    <a class="brand" href="index.html" aria-label="AraManga - الصفحة الرئيسية"><span class="brand-mark">AM</span><span class="brand-name">Ara<span>Manga</span></span></a>
+    <nav aria-label="التنقل الرئيسي">
+      <a href="#features">المزايا</a>
+      <a href="#install">طريقة التثبيت</a>
+      <a href="account.html">حساب AraManga</a>
+      <a href="privacy.html">الخصوصية</a>
+    </nav>
+  </header>
+
+  <main id="content">
+    <section class="hero landing-shell" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="status-dot" aria-hidden="true"></span> إصدار مباشر وآمن</div>
+        <h1 id="hero-title">مكتبتك للمانجا<br><em>في مكان واحد.</em></h1>
+        <p class="lead">اقرأ، تابع، ونزّل الفصول المتاحة في تجربة عربية سريعة تحفظ مكانك وقوائمك تلقائياً.</p>
+        <div class="hero-actions">
+          <a id="downloadButton" class="button primary download-cta" href="AraManga-v2.0.8.apk" download>
+            <svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 19h14"/></svg>
+            تنزيل AraManga
+          </a>
+          <a class="button secondary" href="#install">طريقة التثبيت</a>
+        </div>
+        <div class="release-summary" aria-live="polite">
+          <div class="release-summary-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3v7m0 0 3-3m-3 3-3-3M5 15v4h14v-4"/></svg></div>
+          <div><strong id="releaseVersion">أحدث إصدار</strong><span id="releaseMeta">جارٍ التحقق من آخر إصدار…</span></div>
+        </div>
+      </div>
+
+      <div class="hero-device" aria-hidden="true">
+        <div class="device-glow"></div>
+        <div class="phone-frame">
+          <div class="phone-notch"></div>
+          <div class="phone-screen">
+            <div class="mini-top"><span class="mini-logo">AM</span><i></i><i></i></div>
+            <div class="mini-cover"><span>AM</span><b>AraManga</b><small>مانجا عربية، بتجربة أسرع</small></div>
+            <div class="mini-line wide"></div><div class="mini-line"></div>
+            <div class="mini-cards"><i></i><i></i><i></i></div>
+            <div class="mini-nav"><i></i><i></i><i></i><i></i></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="proof-strip landing-shell" aria-label="ملخص التطبيق">
+      <div><strong>قراءة عربية</strong><span>واجهة RTL واضحة وسهلة</span></div>
+      <div><strong>حفظ التقدم</strong><span>تابع من حيث توقفت</span></div>
+      <div><strong>تنزيلات</strong><span>للقراءة دون اتصال</span></div>
+    </section>
+
+    <section id="features" class="section landing-shell" aria-labelledby="features-title">
+      <div class="section-heading"><p class="eyebrow">مصمم للقراءة</p><h2 id="features-title">كل ما تحتاجه، بلا تعقيد.</h2><p>ركّز على المانجا، واترك التطبيق يتكفل بحفظ مكانك وتنظيم مكتبتك.</p></div>
+      <div class="feature-grid">
+        <article class="feature-item"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M6 19.5A4.5 4.5 0 0 1 10.5 15H20V5H10.5A4.5 4.5 0 0 0 6 9.5v10ZM6 19.5V5H4v14.5h2Z"/></svg></div><h3>قراءة مريحة</h3><p>واجهة عربية بسيطة تضع الفصل أمامك من دون تشتيت.</p></article>
+        <article class="feature-item"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 8v5l3 2m5-3a8 8 0 1 1-16 0 8 8 0 0 1 16 0Z"/></svg></div><h3>اكمل من مكانك</h3><p>احفظ تقدمك في القراءة وارجع إليه في أي وقت.</p></article>
+        <article class="feature-item"><div class="feature-icon"><svg aria-hidden="true" viewBox="0 0 24 24"><path d="M12 3v11m0 0 4-4m-4 4-4-4M5 19h14"/></svg></div><h3>فصول دون إنترنت</h3><p>نزّل ما تريد قراءته واستمتع به حتى دون اتصال.</p></article>
+      </div>
+    </section>
+
+    <section id="install" class="install-section landing-shell" aria-labelledby="install-title">
+      <div class="install-copy"><p class="eyebrow">ثلاث خطوات فقط</p><h2 id="install-title">ثبّت التطبيق وابدأ القراءة.</h2><p>لا تحتاج إلى متجر Play. الملف متاح مباشرة من صفحة AraManga الرسمية.</p><a id="releaseLink" class="text-link" href="AraManga-v2.0.8.apk" download>تنزيل ملف الإصدار الحالي <span aria-hidden="true">←</span></a></div>
+      <ol class="steps">
+        <li><span>1</span><div><strong>نزّل ملف APK</strong><p>اضغط على زر التنزيل في الأعلى أو هنا.</p></div></li>
+        <li><span>2</span><div><strong>اسمح بالتثبيت</strong><p>إذا طلب Android ذلك، اسمح لمتصفحك بتثبيت التطبيقات.</p></div></li>
+        <li><span>3</span><div><strong>افتح AraManga</strong><p>سجّل الدخول إن رغبت لمزامنة قوائمك وتقدمك.</p></div></li>
+      </ol>
+    </section>
+
+    <section class="final-cta landing-shell" aria-labelledby="final-title">
+      <div><p class="eyebrow">جاهز الآن</p><h2 id="final-title">ابدأ رحلتك في AraManga.</h2><p id="finalReleaseNote">سيظهر أحدث إصدار هنا تلقائياً كلما تم نشر تحديث جديد.</p></div>
+      <a id="downloadButtonBottom" class="button primary" href="AraManga-v2.0.8.apk" download>تنزيل التطبيق</a>
+    </section>
+  </main>
+
+  <footer><div>© <span id="currentYear">2026</span> AraManga</div><div><a href="privacy.html">سياسة الخصوصية</a><a href="account.html">حساب AraManga</a></div></footer>
+  <script src="site.js"></script>
+</body>
+</html>
